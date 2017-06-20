@@ -45,7 +45,6 @@ get_header(); ?>
 						$key_2_values = get_post_meta( get_the_ID(), 'wpcf-code-html' );
 						$key_3_values = get_post_meta( get_the_ID(), 'wpcf-columns-number' );
 
-	
 						echo '<div class="img-template">';
 						echo '<a href="'.$key_2_values[0].'" target="_blank">';
 						echo '<img src="'.$key_1_values[0].'" /></a>';
